@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bloc {
+  background-image: url(https://blog.interflora.fr/wp-content/uploads/2016/05/Entretien-bouquet-de-fleurs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: antiquewhite;
+  position: relative;
+  top: 200px;
+  height: 500px;
+}
+.articles h1 {
+  font-size: 60px;
+  color: orangered;
+  width: 80%;
+  margin: auto;
+  margin-right: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.articles h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+.box:hover {
+  border: 3px;
+  color: black;
+  outline-style: solid;
+}
+.box {
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  box-sizing: border-box;
+  font-weight: bolder;
+  position: relative;
+  font-size: 20 px;
+  padding: 20px;
+  overflow: hidden;
+}
+.bg-color-grey-light {
+  background-color: rgb(235, 231, 231);
+  color: rgba(29, 28, 28, 0.61);
+}
+.bg-color-dark-grey {
+  background-color: rgb(41, 40, 40);
+  color: rgb(235, 231, 231);
+}
+.articles {
+  margin-left: 200px;
+}
